@@ -71,8 +71,8 @@ section.in-view {opacity:1; transform:translateY(0);}
 .about-img {width:100%; max-height:350px; object-fit:cover; border-radius:10px;}
 .about-content {display:flex; flex-wrap:wrap; align-items:center; gap:30px;}
 .about-text {flex:1; min-width:300px;}
-.btn-primary {background-color:#28a745; border-color:#28a745;}
-.btn-primary:hover {background-color:#218838; border-color:#1e7e34;}
+.btn-get {background-color:#28a745; border-color:#28a745; color:white}
+.btn-get:hover, .btn-get:focus {background-color:#218838; border-color:#1e7e34;}
 .why-slide {width:100%; height:250px; overflow:hidden; position:relative; margin-top:20px;}
 .why-slides {display:flex;}
 .why-slides img {width:100%; height:250px; object-fit:cover; flex-shrink:0; margin-right:10px; border-radius:8px;}
@@ -313,92 +313,7 @@ select.my-select:focus {
     background-repeat: no-repeat; /* Prevent image repetition */
     margin:10px;
   }
-/* h2{font-size:26px;margin-bottom:20px}
-    .service-btn{
-      padding:12px 22px;
-      background:#2c7be5;
-      color:#fff;
-      border:0;
-      cursor:pointer;
-      border-radius:4px;
-      font-size:16px;
-    }
-    /* Modal */
-    /* .modal{
-      position: fixed;
-      top: 0; left:0;
-      width:100%; height:100%;
-      background: rgba(0,0,0,0.55);
-      display:none;
-      justify-content:center;
-      align-items:center;
-      padding:20px;
-    }
-    .modal-content{
-      animation: popIn 0.35s ease;
 
-      background:#fff;
-      width:100%;
-      max-width:420px;
-      padding:24px;
-      border-radius:6px;
-      box-shadow:0 8px 28px rgba(0,0,0,0.2);
-    }
-    .modal h3{margin-top:0;margin-bottom:16px;font-size:22px}
-    .field{margin-bottom:14px;display:flex;flex-direction:column;font-size:14px}
-    .field input, .field select{
-      padding:10px;
-      font-size:15px;
-      border:1px solid #ccc;
-      border-radius:4px;
-    }
-    .close-btn{
-      background:#dc3545;
-      color:#fff;
-      border:0;
-      padding:8px 14px;
-      cursor:pointer;
-      border-radius:4px;
-      margin-top:10px;
-    }
-    .submit-btn{
-      background:#28a745;
-      color:#fff;
-      border:0;
-      padding:10px 16px;
-      cursor:pointer;
-      border-radius:4px;
-      font-size:16px;
-      margin-top:10px;
-    }
-      .hero{
-      width:100%;
-      height:300px;
-      background:url('/mnt/data/32f8b155-bf47-4c46-aec0-fec78eee55a6.png') center/cover no-repeat;
-      position:relative;
-      margin-bottom:30px;
-    }
-    .center-btn{
-      position:absolute;
-      top:130%; left:50%;
-      transform:translate(-50%, -50%);
-      background:#28a745 !important;
-      color:white;
-    }
-  .hero-title{
-      position:absolute;
-      top:105%; left:50%;
-      transform:translateX(-50%);
-      color:white;
-      font-size:28px;
-      font-weight:bold;
-      text-shadow:0 2px 6px rgba(0,0,0,0.6);
-    }
-  @keyframes popIn {
-      0% {transform: scale(0.6); opacity: 0;}
-      70% {transform: scale(1.05); opacity: 1;}
-      100% {transform: scale(1);}
-    } */ 
 h2{font-size:26px;margin-bottom:20px}
 .modal-content{ width: 80%; max-width: 900px; min-width: 100px; margin:auto; background:white; padding:20px; border-radius:12px; animation: popIn 0.35s ease; }
 .modal-content1{ width: 70%; max-width: 500px; margin:auto; background:white; padding:40px; border-radius:12px; animation: popIn 0.35s ease; }
@@ -418,18 +333,9 @@ border-radius:4px;
     outline: none !important;
     box-shadow: 0 0 5px rgba(46, 204, 113, 0.3);
 }
-/* .field input, .field select::hover{
-   border-color: #2ecc71 !important; 
-    box-shadow: 0 0 5px rgba(46, 204, 113, 0.4);
-} */
+
 .close-btn{
-/* background:#dc3545;
-color:#fff;
-border:0;
-padding:8px 14px;
-cursor:pointer;
-border-radius:4px;
-margin-top:10px; */
+
  background: #d9534f;
 color:#fff;
 border:0;
@@ -514,19 +420,6 @@ input:hover {
 /* end of Big image */
 
 
-
-/* new styling beginning */
-  /* :root{
-      --green:#2f9e44;
-      --green-dark:#23803a;
-      --white: #ffffff;
-      --overlay: rgba(10,10,10,0.45);
-      --card-bg: rgba(255,255,255,0.07);
-      --radius:14px;
-    }
-    *{box-sizing:border-box}
-    body,html{height:100%;margin:0;font-family:'Poppins',system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--white)} */
-
     .hero12{
       min-height:120vh;
       display:flex;
@@ -567,37 +460,6 @@ input:hover {
       font-weight:400;
     }
 
-    /* Card */
-    /* .card{ width:70%;
-      background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
-      backdrop-filter: blur(6px);
-      border-radius:var(--radius);
-      padding:18px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.45);
-      border: 1px solid rgba(255,255,255,0.06);
-      color:var(--white);
-    } */
-
-    /* .card h3{margin:0 0 12px 0;font-size:18px;font-weight:700} */
-
-    /* .btn-row{display:flex;gap:12px;flex-wrap:wrap}
-    .btn{
-      padding:10px 18px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--white);cursor:pointer;font-weight:600}
-    .btn.primary{
-      background:linear-gradient(180deg,var(--green),var(--green-dark));border:none;color:#fff;box-shadow: 0 6px 18px rgba(47,158,68,0.15);
-    }
-    .btn:focus{outline:3px solid rgba(255,255,255,0.08)} */
-
-    /* Mobile */
-    /* @media (max-width:900px){
-      .hero{padding:36px 4vw}
-      .hero-grid{grid-template-columns:1fr}
-      .hero{background-position:center}
-      h1{font-size:32px}
-      .card{margin-top:8px}
-    } */
-
-
 
     .delivery-wrapper {
     background: linear-gradient(90deg, #267b38, #2ea145);
@@ -612,6 +474,7 @@ input:hover {
 @media (max-width:790px){
    /* .form-col {
     flex: 1 1 calc(50% - 20px); /* 2 columns */
+
     .py-2 {
     margin: 12px;
 }
@@ -800,9 +663,6 @@ textarea::placeholder {
 </header>
 
 
-
-
-<!-- new image start -->
   <div class="hero12" role="banner">
     <div class="container">
       <div class="hero-grid">
@@ -811,14 +671,6 @@ textarea::placeholder {
           <h1>Click Service below &amp;<br> Mavuno+ will be willing <br> to serve you</h1>
           <p class="lead">MavunoPlus delivers fresh food, essential groceries,<br> and everyday non-food items anywhere in Tanzania <br>– quickly, safely, and affordably.</p>
         </div>
-
-        <!-- <aside class="card" aria-label="Select Mode of Delivery"> -->
-          <!-- <h3>Select Mode of Delivery</h3>
-          <div class="btn-row">
-            <button class="btn primary" aria-pressed="true">Buy &amp; Deliver</button>
-            <button class="btn" aria-pressed="false">Pick-Up From Me</button>
-            <button class="btn" aria-pressed="false">Pick-Up From Another Sender</button>
-          </div> -->
 
             <div class="delivery-wrapper">
     <h3>Select Mode of Delivery</h3>
@@ -829,76 +681,12 @@ textarea::placeholder {
         <button onclick="openModal('modal1')">Pick-Up From Someone Else</button>
     </div>
 </div>
-        <!-- </aside> -->
-      </div>
-    </div>
-  </div>
-
-<!-- New Image End -->
-
-
-<!-- <div class="slider animate__animated animate__fadeInUp">
-<div class="slides" id="slideContainer">
-<img src="images/mavuno motors-trial.png"/>
-<img src="images/mavuno motors.png" />
-<img src="images/motor2mavuno.png" />
-<img src="images/mavuno motors.png" />
-<img src="images/motor2mavuno.png" />
-<img src="images/mavuno motors.png" />
-<img src="images/motor2mavuno.png" />
-<img src="images/mavuno motors.png" />
-<img src="images/motor2mavuno.png" />
-<img src="images/mavuno motors.png" />
-
-</div>
-<div class="controls">
-<button onclick="moveSlide(-1)">&#10094;</button>
-<button onclick="moveSlide(1)">&#10095;</button>
-</div>
-</div> -->
-
-<!-- <div class="background-div"> -->
-  <!-- <img src="images/mavuno motors-trial.png" style="width: 100%; height:650px;"/> -->
-   <!-- <div class="nyeusi">
-    <div class="hero">
-    <h1 class="hero-title">Click Service below & Mavuno+ will be will to serve you</h1>
-    <button class="center-btn submit-btn" onclick="openModal('serviceOptions')">Choose Service</button>
-  </div>
-</div> -->
-  <!-- Service Option Modal -->
-  <!-- <div class="modal" id="serviceOptions">
-    <div class="modal-content1">
-      <h3>Select Mode of Delivery</h3>
-      <select class="styled-select" id="serviceSelect">
-        <option selected disabled hidden>Choose a service</option>
-        <option value="1">Pick-Up From Another Sender</option>
-        <option value="2">Pick-Up From Me</option>
-        <option value="3">Buy & Deliver</option>
-      </select>
-      <div class="btn-row">
-         <button class="close-btn" onclick="closeModal('serviceOptions')" style="text-align: center;">Close</button>
-      <button class="submit-btn" onclick="goToService()">Continue</button>
      
       </div>
     </div>
-  </div> -->
+  </div>
 
-  <!-- Modal 1: Pick up from Sender to Receiver -->
-  <!-- <div class="modal" id="modal1">
-    <div class="modal-content">
-      <h3>Pick-Up From Another Sender</h3>
 
-      <div class="field"><label>Sender Name</label><input type="text"></div>
-      <div class="field"><label>Sender Mobile Number</label><input type="text"></div>
-      <div class="field"><label>Sender Region</label><input type="text"></div>
-      <div class="field"><label>Sender District</label><input type="text"></div>
-      <div class="field"><label>Sender Ward</label><input type="text"></div>
-      <div class="field"><label>Sender House Number</label><input type="text"></div>
-
-      <button class="submit-btn">Submit</button>
-      <button class="close-btn" onclick="closeModal('modal1')" style="text-align: center;">Close</button>
-    </div>
-  </div> -->
 
  <div class="modal" id="modal1">
 <div class="modal-content">
@@ -908,28 +696,31 @@ textarea::placeholder {
 <div class="form-row">
 <div class="form-col">
 <div class="field"><label>Sender Name</label><input type="text" placeholder="Sender Name"></div>
-<div class="field"><label>Sender District</label><input type="text" placeholder="Sender District"></div>
-<div class="field"><label>Receiver Name</label><input type="text" placeholder="Receiver Name"></div>
-<div class="field"><label>Receiver DIstrict</label><input type="text" placeholder="Receiver District"></div>
+<div class="field item5"><label>Sender Mobile Number</label><input type="text" placeholder="Sender Mobile Number"></div>
+ <div class="field item9"><label>Sender Region</label><input type="text" placeholder="Sender Region"></div>
+<div class="field item2"><label>Sender District</label><input type="text" placeholder="Sender District"></div>
+
+
 
 </div>
 
 
 <div class="form-col">
-<div class="field"><label>Sender Mobile Number</label><input type="text" placeholder="Sender Mobile Number"></div>
-<div class="field"><label>Sender Ward</label><input type="text" placeholder="Sender Ward"></div>
-<div class="field"><label>Receiver Mobile Number</label><input type="text" placeholder="Receiver Mobile Number"></div>
-<div class="field"><label>Receiver Ward</label><input type="text" placeholder="Receiver Ward"></div>
+<div class="field item6"><label>Sender Ward</label><input type="text" placeholder="Sender Ward"></div>
+<div class="field item10"><label>Sender House Number</label><input type="text" placeholder="Sender House Number"></div>
+<div class="field item3"><label>Receiver Name</label><input type="text" placeholder="Receiver Name"></div>
+<div class="field item7"><label>Receiver Mobile Number</label><input type="text" placeholder="Receiver Mobile Number"></div>
+
+
 
 
 </div>
 
 <div class="form-col">
-<div class="field"><label>Sender Region</label><input type="text" placeholder="Sender Region"></div>
-<div class="field"><label>Sender House Number</label><input type="text" placeholder="Sender House Number"></div>
-
-<div class="field"><label>Receiver Region</label><input type="text" placeholder="Receiver Region"></div>
-<div class="field"><label>Receiver House Number</label><input type="text" placeholder="Receiver House Number"></div>
+<div class="field item4"><label>Receiver DIstrict</label><input type="text" placeholder="Receiver District"></div>
+<div class="field item8"><label>Receiver Ward</label><input type="text" placeholder="Receiver Ward"></div>
+<div class="field item11"><label>Receiver Region</label><input type="text" placeholder="Receiver Region"></div>
+<div class="field item12"><label>Receiver House Number</label><input type="text" placeholder="Receiver House Number"></div>
 
 
 
@@ -954,37 +745,40 @@ textarea::placeholder {
 </div>
 
 
-  <!-- Deliver from your location to receiver -->  
-   <!-- Deliver from me -->
+ 
+   <!-- Pick up from me -->
   <div class="modal" id="modal2">
     <div class="modal-content">
       <h3>Pick-Up From Me</h3>
   <button class="close-btnx" onclick="closeModal('modal2')">x</button>
       <div class="form-row">
 <div class="form-col">
-<div class="field"><label>Customer Name</label><input type="text" placeholder="Customer Name"></div>
-<div class="field"><label>Customer District</label><input type="text" placeholder="Customer District"></div>
-<div class="field"><label>Receiver Name</label><input type="text" placeholder="Receiver Name"></div>
-<div class="field"><label>Receiver DIstrict</label><input type="text" placeholder="Receiver District"></div>
+<div class="field item13"><label>Customer Name</label><input type="text" placeholder="Customer Name"></div>
+<div class="field item17"><label>Customer Mobile Number</label><input type="text" placeholder="Customer Mobile Number"></div>
+<div class="field item21"><label>Customer Region</label><input type="text" placeholder="Customer Region"></div>
+<div class="field item14"><label>Customer District</label><input type="text" placeholder="Customer District"></div>
+
+
 
 </div>
 
 
 <div class="form-col">
-<div class="field"><label>Customer Mobile Number</label><input type="text" placeholder="Customer Mobile Number"></div>
-<div class="field"><label>Customer Ward</label><input type="text" placeholder="Customer Ward"></div>
-<div class="field"><label>Receiver Mobile Number</label><input type="text" placeholder="Receiver Mobile Number"></div>
-<div class="field"><label>Receiver Ward</label><input type="text" placeholder="Receiver Ward"></div>
+  <div class="field item18"><label>Customer Ward</label><input type="text" placeholder="Customer Ward"></div>
+  <div class="field item22"><label>Customer House Number</label><input type="text" placeholder="Customer House Number"></div>
+<div class="field item15"><label>Receiver Name</label><input type="text" placeholder="Receiver Name"></div>
+<div class="field item19"><label>Receiver Mobile Number</label><input type="text" placeholder="Receiver Mobile Number"></div>
+
+
 
 
 </div>
 
 <div class="form-col">
-<div class="field"><label>Customer Region</label><input type="text" placeholder="Customer Region"></div>
-<div class="field"><label>Customer House Number</label><input type="text" placeholder="Customer House Number"></div>
-
-<div class="field"><label>Receiver Region</label><input type="text" placeholder="Receiver Region"></div>
-<div class="field"><label>Receiver House Number</label><input type="text" placeholder="Receiver House Number"></div>
+<div class="field item23"><label>Receiver Region</label><input type="text" placeholder="Receiver Region"></div>
+<div class="field item16"><label>Receiver DIstrict</label><input type="text" placeholder="Receiver District"></div>
+<div class="field item20"><label>Receiver Ward</label><input type="text" placeholder="Receiver Ward"></div>
+<div class="field item24"><label>Receiver House Number</label><input type="text" placeholder="Receiver House Number"></div>
 
 
 
@@ -1011,16 +805,13 @@ textarea::placeholder {
       <h3>Buy Items & Deliver To Receiver</h3>
         <button class="close-btnx" onclick="closeModal('modal3')">x</button>
 
-      <!-- <div class="field"><label>Receiver Name</label><input type="text"></div>
-      <div class="field"><label>Receiver Location</label><input type="text"></div>
-      <div class="field"><label>Receiver Region</label><input type="text"></div>
-      <div class="field"><label>Date</label><input type="date"></div> -->
            <div class="form-row">
 <div class="form-col">
 
 <div class="field"><label>Receiver Name</label><input type="text" placeholder="Receiver Name"></div>
+<div class="field"><label>Receiver Mobile Number</label><input type="text" placeholder="Receiver Mobile Number"></div>
 <div class="field"><label>Receiver Region</label><input type="text" placeholder="Receiver Region"></div>
-<div class="field"><label>Receiver House Number</label><input type="text" placeholder="Receiver House Number"></div>
+
 
 
 </div>
@@ -1028,9 +819,10 @@ textarea::placeholder {
 
 <div class="form-col">
   
-<div class="field"><label>Receiver Mobile Number</label><input type="text" placeholder="Receiver Mobile Number"></div>
+
 <div class="field"><label>Receiver DIstrict</label><input type="text" placeholder="Receiver District"></div>
 <div class="field"><label>Receiver Ward</label><input type="text" placeholder="Receiver Ward"></div>
+<div class="field"><label>Receiver House Number</label><input type="text" placeholder="Receiver House Number"></div>
 
 
 </div>
@@ -1050,67 +842,6 @@ textarea::placeholder {
 </div>
 
 
-
-<!-- <div id="TheServices">
-<section id="formSection" class="animate__animated">
-<div class="container my-5">
-<h2 class="fw-bold mb-3">100% Genuine Product Served</h2>
-<p class="text-muted mb-4">Select Service List Items You Want to be delivered to you</p>
-<form>
-<div class="form-row-equal">
-<div class="form-col">
-<label class="form-label mt-3">Select Service</label>
-<select class="form-select">
-<option selected disabled hidden>Choose a service</option>
-<option>Pick up from sender and deliver to receiver</option>
-<option>Deliver from your location to receiver</option>
-<option>Buy items and deliver to receiver</option>
-</select>
-<label class="form-label mt-3">Sender Name</label>
-<input type="text" class="form-control" placeholder="Enter sender name">
-<label class="form-label mt-3">Sender Mobile Number</label>
-<input type="text" class="form-control" placeholder="Enter sender mobile">
-<label class="form-label mt-3">Sender Region</label>
-<input type="text" class="form-control" placeholder="Enter sender Region">
-<label class="form-label mt-3">Sender District</label>
-<input type="text" class="form-control" placeholder="Enter sender District">
-<label class="form-label mt-3">Sender Ward</label>
-<input type="text" class="form-control" placeholder="Enter sender Ward">
-<label class="form-label mt-3">Sender House Number</label>
-<input type="text" class="form-control" placeholder="Enter sender House Number">
-</div>
-<div class="form-col">
-<label class="form-label mt-3">Receiver Name</label>
-<input type="text" class="form-control" placeholder="Enter receiver name">
-<label class="form-label mt-3">Receiver Mobile Number</label>
-<input type="text" class="form-control" placeholder="Enter receiver mobile">
-<label class="form-label mt-3">Receiver Region</label>
-<input type="text" class="form-control" placeholder="Enter receiver Region">
-<label class="form-label mt-3">Receiver District</label>
-<input type="text" class="form-control" placeholder="Enter receiver District">
-<label class="form-label mt-3">Receiver Ward</label>
-<input type="text" class="form-control" placeholder="Enter receiver Ward">
-<label class="form-label mt-3">Receiver House Number</label>
-<input type="text" class="form-control" placeholder="Enter receiver House Number">
-<label class="form-label mt-3">List Items You Want</label>
-<textarea class="form-control" rows="5" placeholder="Enter items"></textarea>
-
-</div>
-
-</div>
-<div class="text-center mt-4">
-<button type="submit" class="btn btn-primary px-5 py-2">Submit</button>
-</div>
-</form>
-</div>
-</section>
-</div> -->
-
-<!-- <div class="maneno" style="background-color: #8bc28b; color:white; text-align: center;">
-<h1>Enjoy Your Own Genuine Web Masterpiece & Delivery Services</h1>
-<p>MavunoPlus delivers fresh food, essential groceries, and everyday non-food items anywhere in Tanzania – quickly, safely, and affordably</p>
-
-</div> -->
 
 <div class="hero-banner" id="FeaturedCategories">
     <h1>Enjoy Your Own Genuine Web Masterpiece & Delivery Services</h1>
@@ -1170,13 +901,16 @@ textarea::placeholder {
 </div>
 
 <!--End of featured category section-->
+
+
 <section class="animate__animated my-5">
 <div class="container" >
 <div class="about-content row" >
-  <!-- Row 1: About Us + Motorcycle Delivery -->
+
+  
   <div class="col-md-6">
     <div class="about-img-container mb-4">
-      <img src="images/mavuno motors.png" alt="Motorcycle Delivery" class="about-img animate__animated animate__fadeInLeft">
+      <img src="images/mavunoera.png" alt="Motorcycle Delivery" class="about-img animate__animated animate__fadeInLeft">
     </div>
   </div>
   <div class="about-text col-md-6 d-flex flex-column justify-content-center">
@@ -1192,15 +926,15 @@ textarea::placeholder {
   <div class="col-md-6 mt-5">
     <div class="why-slide">
       <div class="why-slides" id="whySlideContainer">
-        <img src="images/mavuno motors.png" alt="Reason 1">
-        <img src="images/logo.png" alt="Reason 2">
-        <img src="images/mavuno motors.png" alt="Reason 3">
-        <img src="images/logo.png" alt="Reason 4">
-        <img src="images/mavuno motors.png" alt="Reason 5">
-        <img src="images/motor2mavuno.png" alt="Reason 6">
-        <img src="images/mavuno motors.png" alt="Reason 7">
-        <img src="images/motor2mavuno.png" alt="Reason 8">
-        <img src="images/mavuno motors.png" alt="Reason 9">
+        <img src="images/newmavuno.png" alt="Reason 1">
+        <img src="images/ingridients.png" alt="Reason 2">
+        <img src="images/picha2.png" alt="Reason 3">
+        <img src="images/picha3.png" alt="Reason 4">
+        <img src="images/newmavuno.png" alt="Reason 5">
+        <img src="images/picha2.png" alt="Reason 6">
+        <img src="images/newmavuno.png" alt="Reason 7">
+        <img src="images/ingridients.png" alt="Reason 8">
+        <img src="images/newmavuno.png" alt="Reason 9">
         <img src="images/logo.png" alt="Reason 10">
       </div>
       <div class="why-controls">
@@ -1230,14 +964,16 @@ textarea::placeholder {
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 mb-4">
-        <video controls style="width:100%; border-radius:10px; padding-top: 25px;" autoplay muted playsinline loop>
-          <source src="images/maize.mp4" type="video/mp4">
+   
+          <video style="width:100%; border-radius:10px; padding-top: 25px;" autoplay muted playsinline loop>
+          <source src="images/mavunoplus.mp4" type="video/mp4">
         </video>
       </div>
       <div class="col-md-6 d-flex flex-column justify-content-center" style="color:#fff" >
         <h2 class="fw-bold">What Are You Waiting For?<br>Start It Today</h2>
         <p class="text-muted" style="color:#fff !important"> What are you waiting for? Join the MavunoPlus movement today and experience the easiest, fastest, and most reliable way to get your food and essentials delivered anywhere in Tanzania. Whether you’re shopping for fresh produce, household items, or everyday necessities — we’ve got you covered. Start your order now and enjoy quality, convenience, and impact with every delivery. With MavunoPlus, it’s not just shopping — it’s a smarter way of living.</p>
-        <button class="btn btn-primary mt-3 px-4 py-2">Get Started</button>
+           <a href="index.html" class="btn btn-get mt-3 px-4 py-2">Get Started</a>
+
       </div>
     </div>
   </div>
